@@ -1,0 +1,1 @@
+export const API_BASE_URL = "/choreo-apis/sim/server-app/v1"
