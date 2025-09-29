@@ -4,6 +4,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), '')
+  console.log('VITE_DEBUG =', env.VITE_DEBUG)
   const DEBUG = env.VITE_DEBUG === 'true'
 
   return {
